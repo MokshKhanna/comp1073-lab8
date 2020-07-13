@@ -30,7 +30,7 @@ function weirdDeals(json)
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
 		// adding  values in attributes
-        img.setAttribute('src', './images/' + topDeals[i].image);
+        img.setAttribute('src', 'https://mokshkhanna.github.io/comp1073-lab8/images/' + topDeals[i].image);
         img.setAttribute('height', '100px');
         img.setAttribute('width', '100px');
         h3.textContent = topDeals[i].name;
